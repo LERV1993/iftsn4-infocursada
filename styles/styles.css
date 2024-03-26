@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --backgound1: #f5f5f5;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+}
+
+body{
+    background-color: var(--backgound1);
+}
+
+.title{
+
+   text-align: center;
+
+}
+
+.title1{
+
+    padding-top: 2rem;
+
+}
+
+.title4{
+
+    margin-bottom: 1rem;
+}
+
+.tableContainer{
+    width: 95%;
+    margin: auto;
+}
+
+.InfoContainer{
+
+    width: 95%;
+    margin: 2rem auto;
+    background-color: var(--blanco);
+    border-radius: .5rem;
+    border: 1px solid var(--negro);
+    padding: 1.5rem 0;
+}
+
+.courseInfo{
+
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        margin: 0;
+        padding: 0;
+    }
+
+}
